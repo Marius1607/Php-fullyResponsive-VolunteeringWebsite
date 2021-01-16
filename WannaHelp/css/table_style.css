@@ -1,0 +1,52 @@
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, #485563, #29323c);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    margin: 0;
+    position: absolute;
+    margin: 0;
+	font-family: sans-serif;
+    font-weight: 100;
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.submit_hide{
+    display: none;
+}
+td, th{  
+    border: 1px solid transparent; /* No more visible border */
+    height: 40px;
+    width: 60px;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+tr:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+td:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+th{
+    color: white;
+    background-color: #55608f;
+    font-weight: bold;
+}

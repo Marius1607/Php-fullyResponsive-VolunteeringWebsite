@@ -1,0 +1,228 @@
+html{
+    height: 100%;   
+}
+
+body{
+    background-image: repeating-linear-gradient(to right, #485563, #29323c);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#error_login_1{
+    color: red;
+    display: none;
+}
+p {
+    color: white;
+}
+
+#pass_error{
+    color:red;
+    display: none;
+}
+
+#pass_error2{
+    color:red;
+    display: none;
+}
+
+.detalii{
+    color:white;
+    font-size:  400px;
+    background-color: red;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);    
+    display: block;
+    box-sizing: border-box;
+    right: 0;
+    left: 0;
+}
+
+.wrapper h3{
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    width: 100%;
+    color: #00B9F7;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 20px;
+    height: 30px;
+    border-color: #00B9F7;
+}
+
+.logoImg{
+    height: auto;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.wrapper #select-afiliere{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#register-btn{
+    position: relative;
+    width: 40%;
+    height: 40px;
+    color: white;
+    background-color: #00B9F7;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+}
+
+#already-btn{
+    background-color: black;
+    color: #00B9F7;
+    border-color: #00B9F7;
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+}
+
+#motto{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        position: absolute;
+        width: 60%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);    
+        display: block;
+        box-sizing: border-box;
+        right: 0;
+        left: 0;
+    }
+
+    input {
+        width: 90%;
+        margin-bottom: 35px;
+        height: 40px;
+        border-color: #00B9F7;
+        font-size: 20px;
+        font-family: "Roboto Condensed";
+    }
+
+    .wrapper #select-afiliere{
+        height: 45px;
+        width: 90%;
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+
+    .logoImg{
+        position: relative;
+        height: auto;
+        width: 40%;
+        right: auto;
+        margin-top: 30%;
+        margin-left: 50%;
+    }
+
+    .wrapper h3{
+        color: white;
+        font-family: "Roboto Condensed";
+        font-size: 50px;
+        width: 100%;
+        color: #00B9F7;
+    }
+    
+    #motto{
+        display: block;
+        font-size: 60px;
+        position: relative;
+        float: right;
+        text-align: center;
+        width: 40%;
+        color: white;
+        font-family: "Roboto Condensed";
+    }
+
+    #register-btn{
+        position: relative;
+        width: 40%;
+        height: 50px;
+        color: white;
+        background-color: #00B9F7;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: "Roboto Condensed";
+        font-size: 30px;
+        font-family: "Roboto Condensed";
+    }
+    
+    #already-btn{
+        background-color: black;
+        color: #00B9F7;
+        border-color: #00B9F7;
+        font-size: 30px;
+        height: 50px;
+        font-family: "Roboto Condensed";
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .wrapper {
+        position: absolute;
+        width: 40%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);    
+        display: block;
+        box-sizing: border-box;
+        margin-left: 30px;
+    }
+
+    .logoImg{
+        position: relative;
+        height: auto;
+        width: 40%;
+        right: auto;
+        margin-top: 0;
+        margin-left: 50%;
+    }
+
+    input {
+        width: 80%;
+        margin-bottom: 30px;
+        height: 30px;
+        border-color: #00B9F7;
+        font-size: 20px;
+        font-family: "Roboto Condensed";
+    }
+
+    .second_wrapper{
+        height: 50%;
+        position: absolute;
+        left: 30%;
+        width: 40%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);    
+        display: block;
+        box-sizing: border-box;
+        margin-left: 30px;
+    }
+
+    .wrapper #select-afiliere{
+        height: 40px;
+        width: 80%;
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+}

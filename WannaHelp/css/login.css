@@ -1,0 +1,221 @@
+html{
+    overflow-y: scroll;
+    margin: 0;
+    height: 100%;   
+}
+
+body{
+    background-image: repeating-linear-gradient(to right, #485563, #29323c);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#forgot_password_paragraph{
+    color: #00B9F7;
+    font-size: 20px;
+}
+
+#forgot_password_paragraph :hover{
+    cursor: pointer;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);    
+    display: block;
+    box-sizing: border-box;
+    right: 0;
+    left: 0;
+}
+
+.wrapper h3{
+    font-family: "Roboto Condensed";
+    margin-top: 30px;
+    font-size: 40px;
+    width: 100%;
+    color: #00B9F7;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-color: #00B9F7;
+    font-size: 18px;
+}
+
+.logoImg{
+    height: auto;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.wrapper #select-afiliere{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#register-btn{
+    position: relative;
+    width: 40%;
+    height: 40px;
+    color: white;
+    background-color: #00B9F7;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+    font-family: "Roboto Condensed";
+}
+
+#already-btn{
+    background-color: black;
+    color: #00B9F7;
+    border-color: #00B9F7;
+    font-size: 25px;
+    font-family: "Roboto Condensed";
+}
+
+#motto{
+    display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        margin-top: 50px;
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);    
+        display: block;
+        box-sizing: border-box;
+        right: 0;
+        left: 0;
+    }
+
+    input {
+        width: 90%;
+        margin-bottom: 55px;
+        height: 50px;
+        border-color: #00B9F7;
+        font-size: 20px;
+        font-family: "Roboto Condensed";
+    }
+
+    .wrapper #select-afiliere{
+        height: 45px;
+        width: 90%;
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+
+    .logoImg{
+        position: relative;
+        height: auto;
+        width: 40%;
+        right: auto;
+        margin-top: 10%;
+        margin-left: 50%;
+    }
+
+    .wrapper h3{
+        color: white;
+        font-family: "Roboto Condensed";
+        font-size: 60px;
+        width: 100%;
+        color: #00B9F7;
+    }
+    
+    #motto{
+        margin-top: 50px;
+        display: block;
+        font-size: 60px;
+        position: relative;
+        float: right;
+        text-align: center;
+        width: 40%;
+        color: white;
+        font-family: "Roboto Condensed";
+    }
+
+    #register-btn{
+        position: relative;
+        width: 40%;
+        height: 50px;
+        color: white;
+        background-color: #00B9F7;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: "Roboto Condensed";
+        font-size: 30px;
+        font-family: "Roboto Condensed";
+    }
+    
+    #already-btn{
+        background-color: black;
+        color: #00B9F7;
+        border-color: #00B9F7;
+        font-size: 30px;
+        height: 50px;
+        font-family: "Roboto Condensed";
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .wrapper {
+        height: auto;
+        position: absolute;
+        width: 40%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);    
+        display: block;
+        box-sizing: border-box;
+        margin-left: 30px;
+    }
+
+    #motto{
+        margin-top: 50px;
+        font-size: 40px;
+        position: relative;
+        float: right;
+        text-align: center;
+        width: 40%;
+        color: white;
+        font-family: "Roboto Condensed";
+        display: none;
+    }
+    
+    .logoImg{
+        position: relative;
+        height: auto;
+        width: 40%;
+        right: auto;
+        margin-top: 0;
+        margin-left: 50%;
+    }
+
+    input {
+        width: 80%;
+        margin-bottom: 30px;
+        height: 30px;
+        border-color: #00B9F7;
+        font-size: 20px;
+        font-family: "Roboto Condensed";
+    }
+
+    .wrapper #select-afiliere{
+        height: 40px;
+        width: 80%;
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+}

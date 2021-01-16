@@ -1,0 +1,32 @@
+html{
+    overflow-y: scroll;
+    margin: 0;
+    height: 100%;   
+}
+
+body{
+    background-image: repeating-linear-gradient(to right, 485563, #29323c);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    width: 100%;
+    margin: 0;
+}
+
+.lista-user{
+    float: right;
+    text-align: right;
+    height: auto;
+    right: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-style: none;
+    
+}
+
+body{
+    background-image: linear-gradient(#485563, #29323c);
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}

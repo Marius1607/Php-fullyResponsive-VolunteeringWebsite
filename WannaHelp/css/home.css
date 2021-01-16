@@ -1,0 +1,284 @@
+
+html{
+    overflow-y: scroll;
+    margin: 0;
+    height: 100%;   
+}
+
+body{
+    background-image: repeating-linear-gradient(#485563, #29323c);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+#filtered_inputs{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: #00B9F7;
+    font-family: "Roboto Condensed";
+}
+
+select{ 
+    height: 50px;
+}
+
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);    
+    display: block;
+    box-sizing: border-box;
+    right: 0;
+    left: 0;
+}
+
+.wrapper h3{
+    color: #00B9F7;
+    font-family: "Roboto Condensed";
+    font-size: 23px;
+    width: 100%;
+}
+
+.wrapper #select-ocupatie{
+    margin-bottom: 10px;
+    width: 70%;
+    height: 30px;
+    position: relative;
+    border-color: #00B9F7;
+    
+}
+
+h2 {
+    color: white;
+    width: 100vw;
+    text-align: center;
+    right: 0;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 70%;
+    height: 30px;
+    border-color: #00B9F7;
+}
+
+#submit-btn{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #00B9F7;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Roboto Condensed";
+}
+
+
+.logoImg{
+    height: auto;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+
+  /*ipone*/
+  @media only screen and (min-height: 731px) {
+    .wrapper {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);    
+        display: block;
+        box-sizing: border-box;
+    }
+    
+    .wrapper h3{
+        color: #00B9F7;
+        font-family: "Roboto Condensed";
+        font-size: 40px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .wrapper #select-ocupatie{
+        margin-bottom: 20px;
+        width: 80%;
+        height: 35px;
+        font-size: 15px;
+        border-color: #00B9F7;
+    }
+    
+    h2 {
+        color: white;
+        width: 100vw;
+        text-align: center;
+        right: 0;
+        font-size: 45px;
+    }
+    
+    input{
+        margin-bottom: 20px;
+        width: 80%;
+        height: 35px;
+        font-size: 20px;
+        border-color: #00B9F7;
+        
+    }
+    
+    #submit-btn{
+        position: relative;
+        width: 100px;
+        height: 50px;
+        color: white;
+        background-color: #00B9F7;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: "Roboto Condensed";
+    }
+  }
+
+
+/*IPod view */
+  @media only screen and (min-width: 768px) {
+    .wrapper {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);    
+        display: block;
+        box-sizing: border-box;
+    }
+    
+    .wrapper h3{
+        color: #00B9F7;
+        font-family: "Roboto Condensed";
+        font-size: 55px;
+        width: 100%;
+        margin-bottom: 40px;
+        color: #00B9F7;
+
+    }
+    
+    .wrapper #select-ocupatie{
+        width: 80%;
+        height: 45px;
+        margin-bottom: 30px;
+        font-size: 30px;        
+        border-color: #00B9F7;
+        font-family: "Roboto Condensed";
+    }
+    
+    h2 {
+        color: white;
+        width: 100vw;
+        text-align: center;
+        right: 0;
+        font-size: 60px;
+    }
+    
+    input{
+        margin-bottom: 20px;
+        width: 80%;
+        height: 45px;
+        font-size: 40px;
+        border-color: #00B9F7;
+    }
+    
+    #submit-btn{
+        position: relative;
+        width: 140px;
+        height: 70px;
+        color: white;
+        background-color: #00B9F7;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: "Roboto Condensed";
+        font-size: 50px;
+    }
+    a{
+          font-size: 30px;
+      }
+  }
+
+
+
+  @media only screen and (min-width: 1025px) {
+    .wrapper {
+        position: relative;
+        width: 40%;
+        height: 100%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);    
+        display: block;
+        box-sizing: border-box;
+    }
+    
+    .wrapper h3{
+        color: #00B9F7;
+        font-family: "Roboto Condensed";
+        font-size: 40px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .wrapper #select-ocupatie{
+        width: 60%;
+        height: 45px;
+        position: relative;
+        right: 10%;
+        margin-bottom: 40px;
+        font-size: 25px;
+
+        
+    }
+    
+    h2 {
+        position: absolute;
+        color: white;
+        width: 30%;
+        font-size: 35px;
+        top: 40%;
+    }
+    
+    input{
+        margin-bottom: 40px;
+        width: 80%;
+        height: 35px;
+        font-size: 30px;
+        border-color: #00B9F7;
+    }
+    
+    #submit-btn{
+        position: relative;
+        width: 100px;
+        height: 40px;
+        color: white;
+        background-color: #00B9F7;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: "Roboto Condensed";
+        font-size: 30px;
+    }
+    
+      a{
+          font-size: 20px;
+      }
+      .logoImg{
+          height: auto;
+          width: 30%;
+          position: absolute;
+          top: 25%;
+          left: 40%;
+          right: 40%;
+      }
+
+  }
